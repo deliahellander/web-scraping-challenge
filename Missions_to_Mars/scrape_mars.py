@@ -139,7 +139,7 @@ def scrape():
         print("-----------------------------------------")
 
     #add data to dictionary
-    mars_data["mars_hemisphere"] = hemispheres_info
+    mars_data["hemisphere_info"] = hemispheres_info
 
     #return the mars_data dictionary
     return mars_data
