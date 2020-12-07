@@ -89,11 +89,11 @@ def scrape():
     # Use Pandas to convert the data to a HTML table string.
     mars_facts_html_table = mars_facts_df.to_html()
     # stripping away unwanted new lines to clean up the table
-    mars_facts_html_table.replace('\n', '')
+    mars_facts_html_table = mars_facts_html_table.replace('\n', '')
     mars_facts_html_table
 
     #add data to dictionary
-    mars_data["mars_facts_html_table"] = mars_facts_html_table
+    mars_data["mars_facts_df"] = mars_facts_html_table
 
 
 
