@@ -69,7 +69,7 @@ def scrape():
     print(featured_image_url)
 
     #add data to dictionary
-    mars_data["JPL_featured_space_image_url"] = featured_image_url
+    mars_data["featured_image_url"] = featured_image_url
 
 
     # # Mars Facts
